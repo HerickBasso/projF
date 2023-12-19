@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: blueviolet;
+}
+
+.all{
+    text-align: center;
+    align-items: center;
+    color: white;
+}
+
+.container-titulo {
+    padding-bottom: 3em;
+}
+
+.container-titulo h1 {
+    line-height: 50px;
+}
+
+.container-acoes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-acoes a {
+    text-decoration: none;
+    color: black;
+    transition: .3s;
+}
+
+.container-acoes a:hover {
+    color: dodgerblue;
+}
+
+.container-links {
+    display: flex;
+    flex-direction: column;
+}
+
+.tabela {
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.1);
+}
+
+.tabela a {
+    margin: 0.5em;
+    text-decoration: none;
+    color: black;
+    transition: .3s;
+}
+
+.link-editar-recado:hover {
+    color: dodgerblue;
+}
+
+.tabela th {
+    padding: 1em;
+}
+
+.tabela td {
+    padding: 1em 1.5em;
+}
+
+.link-api {
+    text-decoration: none;
+    color: black;
+    transition: .3s;
+}
+.link-api:hover{
+    color: dodgerblue;
+}

@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1);
+    padding: 3em 3em;
+    width: 350px;
+}
+
+.formulario h1 {
+    padding-bottom: 1em;
+}
+
+.inputs {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+    width: 100%;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+
+.btn-editar {
+    padding: 1em;
+    margin-top: 3em;
+    margin-bottom: 1em;
+    width: 100%;
+    font-weight: bolder;
+    cursor: pointer;
+    border: 1px solid dodgerblue;
+    background-color: white;
+    color: dodgerblue;
+    transition: .3s;
+    letter-spacing: 1px;
+}
+.btn-editar:hover{
+    background-color: dodgerblue;
+    color: white;
+}
+
+.formulario a {
+    text-decoration: none;
+}
